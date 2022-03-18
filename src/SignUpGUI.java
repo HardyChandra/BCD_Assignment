@@ -146,9 +146,11 @@ public class SignUpGUI {
 				account.setICNo(Integer.parseInt(txtIC.getText()));
 				account.setPhone(txtPhoneNumber.getText());
 				
+				System.out.println(account.toString());
 			
 			}
 		});
+		
 		btnNewButton.setFont(SWTResourceManager.getFont("Segoe UI", 12, SWT.BOLD));
 		btnNewButton.setBounds(163, 357, 115, 28);
 		btnNewButton.setText("Sign Up");

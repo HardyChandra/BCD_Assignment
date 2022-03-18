@@ -66,6 +66,12 @@ public class Account {
 	public void setPassword(String password) {
 		Password = password;
 	}
+	@Override
+	public String toString() {
+		return "Account [ID=" + ID + ", ICNo=" + ICNo + ", Email=" + Email + ", Password=" + Password + ", FullName="
+				+ FullName + ", Gender=" + Gender + ", Phone=" + Phone + ", Address=" + Address + ", BirthDate="
+				+ BirthDate + "]";
+	}
 	
 	
 }
